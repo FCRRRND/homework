@@ -17,4 +17,4 @@
 Также разрешаем всё для localhost - ufw allow 127.0.0.1
 В итоге получаем такой результат:
 
-
+![Задание 2](https://user-images.githubusercontent.com/93032289/148367915-763ca244-04d8-4a92-a9a6-a05fa69a0192.jpg)
