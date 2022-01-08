@@ -47,4 +47,4 @@
   
   В /etc/hosts добавляем запись 127.0.0.1  example.com
   
-  
+  ![Задание 6_1](https://user-images.githubusercontent.com/93032289/148652387-2aeb3d56-3f15-4363-915d-3163ac68ba9f.jpg)
