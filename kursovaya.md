@@ -43,4 +43,4 @@
   Устанавливаем nginx - apt install nginx  
   Проверяем статус службы nginx и пингуем example.com для проверки  
   
-  
+  ![Задание 6](https://user-images.githubusercontent.com/93032289/148652324-eba2246f-709c-411c-bc22-71bb2d087d3e.jpg)
