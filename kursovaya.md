@@ -85,6 +85,8 @@ policies             ["root"]
 
   Добавляем сертификаты сайта netology.example.com в файл сайта nginx - vim /etc/nginx/sites-enabled/default  
   
+  ![Задание 7](https://user-images.githubusercontent.com/93032289/148678527-e269b552-7fba-4a6c-b9f4-b384ceb0b041.jpg)
   
+  Перегружаем сервер nginx - systemctl reload nginx  
   
   
