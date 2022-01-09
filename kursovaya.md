@@ -89,4 +89,6 @@ policies             ["root"]
   
   Перегружаем сервер nginx - systemctl reload nginx  
   
+# Задание №8
+
   
