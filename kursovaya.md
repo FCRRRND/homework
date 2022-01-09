@@ -101,4 +101,13 @@ policies             ["root"]
 
   Создаем скрипт - vim ScriptForSite.sh  
   
+  ![Задание 9](https://user-images.githubusercontent.com/93032289/148685766-adee4cbe-a8b5-4016-9029-ca5ebc93fb45.jpg)
+  
+  Делаем файл исполняемым для всех - chmod ugo+x ScriptForSite.sh  
+  
+# Задание №10
+
+  Пишем - crontab -e , добавляем запись * * 9 * * /root/ScriptForSite.sh (автоматическое выполнение скрипта каждый 9й день месяца)  
+  Сохраняем, закрываем, проверяем
+  
   
