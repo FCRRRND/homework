@@ -75,9 +75,11 @@ policies             ["root"]
   Устанавливаем nginx - apt install nginx  
   В /etc/hosts добавляем запись 127.0.0.1  example.com  
     
-  
+  ![Задание 6](https://user-images.githubusercontent.com/93032289/148678216-14fa81ec-ea6f-4f9d-ac99-3f51758d2d39.jpg)
   
   Проверяем статус службы nginx и пингуем example.com для проверки
+  
+  
   
   
 # Задание №7  
