@@ -82,3 +82,9 @@ policies             ["root"]
   ![Задание 6_1](https://user-images.githubusercontent.com/93032289/148678302-1e7295d2-a92c-4ae8-8506-459fe064f507.jpg)
     
 # Задание №7  
+
+  Добавляем сертификаты сайта netology.example.com в файл сайта nginx - vim /etc/nginx/sites-enabled/default  
+  
+  
+  
+  
