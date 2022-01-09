@@ -27,10 +27,13 @@
   sudo apt-get update && sudo apt-get install vault  
      
 # Задание №4
-
-  Делал всё по инструкции  
+  Запускаем vault под root - vault server -dev -dev-root-token-id root  
   
-  ![Задание 4](https://user-images.githubusercontent.com/93032289/148640431-1915eb69-a7f7-4c39-b4be-3bf9a8ea1ec7.jpg)
+  ```
+  vault login root  
+  
+  
+  ```
   
 # Задание №5
 
