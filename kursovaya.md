@@ -54,6 +54,8 @@ policies             ["root"]
   
   Создаём корневые сертификаты
   
+  ![Задание 4](https://user-images.githubusercontent.com/93032289/148676750-41d724a7-fbdd-4198-be9b-7ccb013df0ae.jpg)
+  
   
   
   
