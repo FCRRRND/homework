@@ -110,4 +110,4 @@ policies             ["root"]
   Пишем - crontab -e , добавляем запись * * 9 * * /root/ScriptForSite.sh (автоматическое выполнение скрипта каждый 9й день месяца)  
   Сохраняем, закрываем, проверяем
   
-  
+  ![Задание 10](https://user-images.githubusercontent.com/93032289/148686757-f26c5bc7-3439-48cf-b7e4-59919bbea5cd.jpg)
