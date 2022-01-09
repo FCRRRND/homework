@@ -91,4 +91,8 @@ policies             ["root"]
   
 # Задание №8
 
+  Подгрузил все сертификаты в браузер  
   
+  ![Задание 8](https://user-images.githubusercontent.com/93032289/148685084-1fb436f4-727a-4b70-b1e1-37e156e1931c.jpg)
+  
+  ![Задание 8_1](https://user-images.githubusercontent.com/93032289/148685086-a1208a8d-c326-4ecc-9311-60ac8856549f.jpg)
