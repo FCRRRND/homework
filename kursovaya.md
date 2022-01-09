@@ -56,9 +56,13 @@ policies             ["root"]
   
   ![Задание 4](https://user-images.githubusercontent.com/93032289/148676750-41d724a7-fbdd-4198-be9b-7ccb013df0ae.jpg)
   
-  
-  
-  
+  Создаём сертификаты для netology.example.com  
+  ```
+  vault write -format=json pki_int/issue/example-dot-com common_name="netology.example.com" ttl=720h > netology.example.com.crt
+  cat netology.example.com.crt | jq -r .data.certificate > netology.example.com.crt.pem
+  cat netology.example.com.crt | jq -r .data.issuing_ca >> netology.example.com.crt.pem
+  cat netology.example.com.crt | jq -r .data.private_key > netology.example.com.crt.key
+  ```
   
 # Задание №5
 
