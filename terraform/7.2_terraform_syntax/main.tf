@@ -1,7 +1,7 @@
 provider "yandex" {
-  token     = "AQAAAAAA9f-cAATuwQN-PKdojk7PofCzAaojAU0"
-  cloud_id  = "b1ghgt8sag7lv475qqqm"
-  folder_id = "b1g5q4428ibmbsnf8rh9"
+  token     = "AQAA*****-******-*********AaojAU0"
+  cloud_id  = "b1g*************qqqm"
+  folder_id = "b1g*************8rh9"
   zone      = "<ru-central1-a>"
 }
 
@@ -16,8 +16,8 @@ resource "yandex_vpc_subnet" "subnet" {
   zone           = "ru-central1-a"
 }
 
-data "yandex_compute_image" "ubuntu" {
-  family = "ubuntu-2004-lts"
+data "yandex_compute_image" "centos" {
+  family = "centos-7"
 }
 
 resource "yandex_compute_instance" "vm" {
@@ -33,9 +33,9 @@ resources {
 
   boot_disk {
     initialize_params {
-      image_id = data.yandex_compute_image.ubuntu.id
+      image_id = data.yandex_compute_image.centos.id
       type     = "network-hdd"
-      size     = "20"
+      size     = "40"
     }
   }
 
